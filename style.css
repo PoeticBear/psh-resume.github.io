@@ -1,0 +1,296 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: "caveat", cursive;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+nav {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  background-color: #f2f2f2;
+  top: 0;
+}
+
+nav a {
+  display: inline-block;
+  margin: 5px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #2b2d42;
+}
+
+nav a:hover {
+  color: #8d99ae;
+}
+
+@media (min-width: 440px) {
+  nav a {
+    margin: 14px;
+    font-size: 16px;
+  }
+}
+
+/* header only */
+
+header {
+  position: relative;
+  padding-top: 50px;
+  text-align: center;
+  background-color: #2b2d42;
+  color: #8d99ae;
+}
+
+header h1,
+header h2 {
+  margin: 0;
+  color: #edf2f4;
+}
+
+h1 {
+  margin: 0;
+}
+
+.content-wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 60px 50px;
+  max-width: 950px;
+  overflow: hidden;
+}
+
+@media (min-width: 935px) {
+  .content-wrap {
+    flex-direction: row;
+  }
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+@media (min-width: 440px) {
+  .profile-img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 935px) {
+  .profile-img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+.col-wide {
+  width: 100%;
+  text-align: center;
+}
+
+.col-wide p {
+  color: white;
+}
+
+.btn {
+  text-decoration: none;
+  background: #ef233c;
+  color: white;
+  padding: 0 5px 0 5px;
+}
+
+@media (min-width: 440px) {
+  .btn {
+    padding: 10px;
+  }
+}
+
+.download {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+/* About */
+.aboutme {
+  padding-top: 40px;
+  background-color: #edf2f4;
+  padding-bottom: 20px;
+}
+
+.aboutme-wrapper {
+  margin: 0 auto;
+  padding: 0px 30px;
+  max-width: 950px;
+}
+
+/* Education */
+.education {
+  padding-top: 40px;
+  background-color: #edf2f4;
+  padding-bottom: 40px;
+}
+
+.education-wrapper {
+  margin: 0 auto;
+  padding: 0px 30px;
+  max-width: 950px;
+}
+
+.education-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.education-item img {
+  height: 40px;
+  padding-right: 116px;
+}
+
+ul {
+  margin-top: 0;
+}
+
+/* Work Experience */
+
+.work-experience {
+  /* padding: 40px 0;
+
+  background: linear-gradient(
+      rgba(141, 153, 174, 0.9),
+      rgba(141, 153, 174, 0.7)
+    ),
+    url("./assets/banner01.jpeg") no-repeat fixed;
+  background-size: cover; */
+  padding-top: 40px;
+  background-color: #edf2f4;
+  padding-bottom: 40px;
+}
+
+.work-wrapper {
+  margin: 0 auto;
+  padding: 0px 30px;
+  max-width: 950px;
+}
+
+.job-wrapper {
+  display: block;
+  padding-bottom: 30px;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+@media (min-width: 935px) {
+  .job-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    column-gap: 40px;
+  }
+}
+
+h3 ~ p {
+  padding-top: 10px;
+  margin: 0;
+}
+
+a:visited {
+  color: inherit; /* 保持原有颜色 */
+}
+
+@media (min-width: 935px) {
+  .job-description p:first-child {
+    margin-top: 0;
+  }
+}
+
+.stack p {
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+}
+
+.stack span {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+  margin-left: 0;
+  background-color: lightblue;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+/*footer*/
+
+footer {
+  text-align: center;
+  background-color: #2b2d42;
+  color: #8d99ae;
+}
+
+.contact-wrapper {
+  margin: 0 auto;
+  padding: 50px 0;
+  max-width: 900px;
+}
+
+.contact-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.media-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: #8d99ae solid 2px;
+}
+
+.media-pic:hover {
+  transform: scale(1.1);
+}
+
+p + h3 {
+  margin-top: 30px;
+}
+
+footer p {
+  margin-top: 50px;
+}
+
+.portfolio {
+  background-color: #edf2f4;
+  padding-bottom: 40px;
+}
+
+.portfolio-wrapper {
+  margin: 0 auto;
+  padding: 0px 30px;
+  max-width: 950px;
+}
