@@ -2,15 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans:300,400,600,700"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
     <title>Document</title>
   </head>
   <body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <header>
       <nav class="menu">
         <a href="#aboutme">个人简介</a>
@@ -258,13 +267,277 @@
       <div class="portfolio-wrapper">
         <h2>个人项目</h2>
         <p>外包项目或个人独立完成的项目</p>
-        <ol>
-          <li>租房平台小程序：理想窝</li>
-          <li>企业宣传管理平台：MyBCB</li>
-          <li>工程管理应用软件：快拼</li>
-          <li>电力公司数据处理软件</li>
-          <li>三维实景地图版校务管理大屏</li>
-        </ol>
+        <div class="project-wrapper">
+          <div>
+            <h3>租房平台小程序：理想窝</h3>
+            <div class="stack">
+              <span>微信小程序云开发</span>
+              <span>nodejs</span>
+              <span>vue</span>
+              <span>Tarojs</span>
+            </div>
+          </div>
+          <div class="project-description">
+            <p>
+              项目介绍：该项目是一款租房平台小程序，提供租房信息发布、租房信息搜索、租房信息推荐等功能。用户可以在小程序内发布自己的租房信息，也可以在小程序内搜索到自己满意的租房信息。
+            </p>
+            <p>
+              项目类型：
+              <span>微信小程序</span>
+            </p>
+            <p>
+              功能：
+              <span>租房信息发布</span>
+              <span>租房信息搜索</span>
+              <span>租房信息推荐</span>
+            </p>
+            <p>截图：</p>
+            <a href="./assets/0.png" target="_blank"
+              ><img
+                style="width: auto; height: 100px"
+                src="./assets/0.png"
+                alt="租房平台小程序"
+            /></a>
+            <a href="./assets/1.png" target="_blank"
+              ><img
+                style="width: auto; height: 100px"
+                src="./assets/1.png"
+                alt="租房平台小程序"
+            /></a>
+            <a href="./assets/2.png" target="_blank"
+              ><img
+                style="width: auto; height: 100px"
+                src="./assets/2.png"
+                alt="租房平台小程序"
+            /></a>
+            <a href="./assets/3.png" target="_blank"
+              ><img
+                style="width: auto; height: 100px"
+                src="./assets/3.png"
+                alt="租房平台小程序"
+            /></a>
+            <a href="./assets/4.png" target="_blank"
+              ><img
+                style="width: auto; height: 100px"
+                src="./assets/4.png"
+                alt="租房平台小程序"
+            /></a>
+            <a href="./assets/5.png" target="_blank"
+              ><img
+                style="width: auto; height: 100px"
+                src="./assets/5.png"
+                alt="租房平台小程序"
+            /></a>
+            <a href="./assets/6.png" target="_blank"
+              ><img
+                style="width: auto; height: 100px"
+                src="./assets/6.png"
+                alt="租房平台小程序"
+            /></a>
+          </div>
+        </div>
+
+        <div class="project-wrapper">
+          <div>
+            <h3>企业宣传管理平台：MyBCB</h3>
+            <div class="stack">
+              <span>Uniapp</span>
+              <span>nodejs</span>
+              <span>vue</span>
+              <span>Naive-ui</span>
+              <span>Golang</span>
+              <span>MySql</span>
+            </div>
+          </div>
+          <div class="project-description">
+            <p>
+              项目介绍：该项目是一款企业宣传管理平台，提供企业宣传信息发布、企业宣传信息搜索、企业宣传信息推荐等功能。用户可以在平台内发布自己的企业宣传信息，也可以在平台内搜索到自己满意的企业宣传信息。
+            </p>
+            <p>
+              项目类型：
+              <span>PC 管理后台+微信小程序</span>
+            </p>
+            <p>
+              功能：
+              <span>企业宣传信息发布</span>
+              <span>企业宣传信息搜索</span>
+              <span>企业宣传信息推荐</span>
+            </p>
+            <p>截图：</p>
+
+            <a href="./assets/01.png" target="_blank"
+              ><img
+                style="width: auto; height: 100px"
+                src="./assets/01.png"
+                alt="企业宣传小程序"
+            /></a>
+            <a href="./assets/02.png" target="_blank"
+              ><img
+                style="width: auto; height: 100px"
+                src="./assets/02.png"
+                alt="企业宣传小程序"
+            /></a>
+            <a href="./assets/03.png" target="_blank"
+              ><img
+                style="width: auto; height: 100px"
+                src="./assets/03.png"
+                alt="企业宣传小程序"
+            /></a>
+            <a href="./assets/04.png" target="_blank"
+              ><img
+                style="width: auto; height: 100px"
+                src="./assets/04.png"
+                alt="企业宣传小程序"
+            /></a>
+            <a href="./assets/05.png" target="_blank"
+              ><img
+                style="width: auto; height: 100px"
+                src="./assets/05.png"
+                alt="企业宣传小程序"
+            /></a>
+            <a href="./assets/06.png" target="_blank"
+              ><img
+                style="width: auto; height: 100px"
+                src="./assets/06.png"
+                alt="企业宣传小程序"
+            /></a>
+            <a href="./assets/07.png" target="_blank"
+              ><img
+                style="width: auto; height: 100px"
+                src="./assets/07.png"
+                alt="企业宣传小程序"
+            /></a>
+            <a href="./assets/08.png" target="_blank"
+              ><img
+                style="width: auto; height: 100px"
+                src="./assets/08.png"
+                alt="企业宣传小程序"
+            /></a>
+          </div>
+        </div>
+
+        <div class="project-wrapper">
+          <div>
+            <h3>室内装修施工进度管理应用软件：快拼</h3>
+            <div class="stack">
+              <span>微信小程序云开发</span>
+              <span>nodejs</span>
+              <span>vue</span>
+              <span>Tarojs</span>
+            </div>
+          </div>
+          <div class="project-description">
+            <p>
+              项目介绍：
+              该项目是一款室内装修施工进度管理应用软件，提供室内装修施工进度管理、室内装修施工进度查询、室内装修施工进度推荐等功能。用户可以在软件内发布自己的室内装修施工进度信息，也可以在软件内搜索到自己满意的室内装修施工进度信息。
+            </p>
+            <p>
+              项目类型：
+              <span>微信小程序</span>
+            </p>
+            <p>
+              功能：
+              <span>室内装修施工进度管理</span>
+              <span>室内装修施工进度查询</span>
+            </p>
+            <p>截图：</p>
+            <a href="./assets/kapin/1.png" target="_blank"
+              ><img
+                style="width: auto; height: 100px"
+                src="./assets/kapin/1.png"
+                alt="室内装修施工进度管理应用软件"
+            /></a>
+            <a href="./assets/kapin/2.png" target="_blank"
+              ><img
+                style="width: auto; height: 100px"
+                src="./assets/kapin/2.png"
+                alt="室内装修施工进度管理应用软件"
+            /></a>
+            <a href="./assets/kapin/3.png" target="_blank"
+              ><img
+                style="width: auto; height: 100px"
+                src="./assets/kapin/3.png"
+                alt="室内装修施工进度管理应用软件"
+            /></a>
+            <a href="./assets/kapin/4.png" target="_blank"
+              ><img
+                style="width: auto; height: 100px"
+                src="./assets/kapin/4.png"
+                alt="室内装修施工进度管理应用软件"
+            /></a>
+            <a href="./assets/kapin/5.png" target="_blank"
+              ><img
+                style="width: auto; height: 100px"
+                src="./assets/kapin/5.png"
+                alt="室内装修施工进度管理应用软件"
+            /></a>
+            <a href="./assets/kapin/6.png" target="_blank"
+              ><img
+                style="width: auto; height: 100px"
+                src="./assets/kapin/6.png"
+                alt="室内装修施工进度管理应用软件"
+            /></a>
+          </div>
+        </div>
+
+        <div class="project-wrapper">
+          <div>
+            <h3>电力线路智能匹配工具应用</h3>
+            <div class="stack">
+              <span>Electron</span>
+              <span>vue</span>
+              <span>Naive-ui</span>
+              <span>nodejs</span>
+            </div>
+          </div>
+          <div class="project-description">
+            <p>项目介绍：</p>
+            <p>
+              项目类型：
+              <span>桌面端（Electron）</span>
+            </p>
+            <p>功能：</p>
+            <p>截图：</p>
+            <a href="./assets/power.jpg" target="_blank"
+              ><img
+                style="width: auto; height: 100px"
+                src="./assets/power.jpg"
+                alt="电力线路智能匹配工具应用"
+            /></a>
+          </div>
+        </div>
+
+        <div class="project-wrapper">
+          <div>
+            <h3>三维实景地图版校务管理大屏</h3>
+            <div class="stack">
+              <span>nodejs</span>
+              <span>vue</span>
+              <span>Naive-ui</span>
+              <span>Cesium</span>
+            </div>
+          </div>
+          <div class="project-description">
+            <p>
+              项目介绍：该项目是一款三维实景地图版校务管理大屏，提供校园地图、校园资源管理、校园资源共享、校园资源评价等功能。用户可以在大屏内查看校园地图，也可以在大屏内查看校园资源信息。
+            </p>
+            <p>
+              项目类型：
+              <span>PC Web端</span>
+            </p>
+            <p>
+              功能：
+              <span>校园地图大屏</span>
+            </p>
+            <p>截图：</p>
+            <a href="./assets/map.jpg" target="_blank"
+              ><img
+                style="width: auto; height: 100px"
+                src="./assets/map.jpg"
+                alt="三维实景地图版校务管理大屏"
+            /></a>
+          </div>
+        </div>
       </div>
     </section>
   </main>

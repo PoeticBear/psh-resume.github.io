@@ -294,3 +294,30 @@ footer p {
   padding: 0px 30px;
   max-width: 950px;
 }
+
+.carousel-item img {
+  height: auto;
+  object-fit: cover; /* 保持图片的宽高比 */
+}
+
+.project-wrapper {
+  display: block;
+  padding-bottom: 30px;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+@media (min-width: 935px) {
+  .project-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    column-gap: 40px;
+  }
+}
+
+@media (min-width: 935px) {
+  .project p:first-child {
+    margin-top: 0;
+  }
+}
