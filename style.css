@@ -172,6 +172,13 @@ h1 {
   padding-right: 116px;
 }
 
+@media (max-width: 600px) {
+  .education-item img {
+    height: 30px; /* 你可以根据需要调整这个值 */
+    padding-right: 80px; /* 你可以根据需要调整这个值 */
+  }
+}
+
 ul {
   margin-top: 0;
 }
