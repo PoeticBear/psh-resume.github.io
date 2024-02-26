@@ -148,6 +148,10 @@ h1 {
   max-width: 950px;
 }
 
+.aboutme-wrapper ul li {
+  margin-bottom: 10px;
+}
+
 /* Education */
 .education {
   padding-top: 40px;
